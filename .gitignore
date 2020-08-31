@@ -1,14 +1,29 @@
-# Compiled class file
-*.class
+Thumbs.db
+.DS_Store
+.gradle
+build/
+target/
+out/
+.project
+.settings
+.classpath
 
-# Log file
-*.log
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
 
-# BlueJ files
-*.ctxt
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+### VS Code ###
+.vscode/
 
 # Package Files #
 *.jar
@@ -19,5 +34,8 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Compiled class file
+*.class
+
+# Log file
+*.log
